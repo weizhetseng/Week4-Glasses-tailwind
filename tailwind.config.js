@@ -13,8 +13,8 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'banner-lg': "url('./assets/images/home-header.png')",
-        'banner-sm': "url('./assets/images/home-header-sm.png')",
+        'banner-lg': "url('../images/home-header.png')",
+        'banner-sm': "url('../images/home-header-sm.png')",
       }
     },
   },
