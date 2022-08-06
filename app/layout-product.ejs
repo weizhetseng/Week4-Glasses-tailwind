@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>
-    <%- title %>
-  </title>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="./assets/style/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%- title %>
+    </title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
@@ -29,7 +29,16 @@
     </div>
   </header>
 
-  <%- contents %>
+
+    <ul class="flex justify-center">
+        <li class="border border-r-0 w-full"><a class="block text-center font-medium py-4" href="product.html">OPTICAL</a></li>
+        <li class="border border-r-0 w-full"><a class="block text-center font-medium py-4" href="product2.html">SUNGLASSES</a></li>
+        <li class="border w-full"><a class="block text-center font-medium py-4" href="#">FUNCTIONAL</a></li>
+    </ul>
+
+
+
+    <%- contents %>
 
     <footer class="bg-red-light py-6 sm:pt-12 md:pb-8">
       <div class="container mx-auto">
@@ -74,8 +83,8 @@
       </div>
 
     </footer>
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
+        <script src="./assets/js/vendors.js"></script>
+        <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
