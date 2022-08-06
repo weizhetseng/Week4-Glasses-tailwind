@@ -14,26 +14,32 @@
 </head>
 
 <body>
-  <header class="bg-red-light">
-    <div class="container flex justify-between items-center">
-      <h1><a class="block" href="./"><img class="w-20 h-[72px] object-contain" src="./assets/images/logo-white.png"
-            alt=""></a></h1>
+    <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <h1><a href="index.html"><img src="./assets/images/logo-white.png" alt=""></a></h1>
+            <ul class="navbar">
+              <li><a href="product.html">系列鏡框</a></li>
+              <li><a href="location.html">門市據點</a></li>
+              <li><a href="blog.html">部落格</a></li>
+              <li><a href="question.html">常見問題</a></li>
+            </ul>
+    
+            <a class="mobile-menu" href="#">
+              <span class="material-symbols-outlined">
+                menu
+              </span>
+            </a>
+          </div>
+        </div>
+    
+      </header>
 
-      <a class="sm:hidden" href="#"><span class="material-symbols-outlined text-white text-5xl">menu</span></a>
-      <ul class="text-white sm:flex gap-16 hidden">
-        <li><a class="hover:underline hover:underline-offset-2" href="./product.html">系列鏡框</a></li>
-        <li><a class="hover:underline hover:underline-offset-2" href="./location.html">門市據點</a></li>
-        <li><a class="hover:underline hover:underline-offset-2" href="./blog.html">部落格</a></li>
-        <li><a class="hover:underline hover:underline-offset-2" href="./question.html">常見問題</a></li>
-      </ul>
-    </div>
-  </header>
 
-
-    <ul class="flex justify-center">
-        <li class="border border-r-0 w-full"><a class="block text-center font-medium py-4" href="product.html">OPTICAL</a></li>
-        <li class="border border-r-0 w-full"><a class="block text-center font-medium py-4" href="product2.html">SUNGLASSES</a></li>
-        <li class="border w-full"><a class="block text-center font-medium py-4" href="#">FUNCTIONAL</a></li>
+    <ul class="product-nav container">
+        <li><a href="product.html">OPTICAL</a></li>
+        <li><a href="product2.html">SUNGLASSES</a></li>
+        <li><a href="#">FUNCTIONAL</a></li>
     </ul>
 
 
@@ -43,207 +49,214 @@
 
 
 <main>
-    <section class="flex justify-center mb-10">
-        <div class="bg-product-bg-1-sm w-1/2 bg-no-repeat bg-center bg-cover h-[136px]"></div>
-        <div class="bg-product-bg-2-sm w-1/2 bg-no-repeat bg-center bg-cover h-[136px]"></div>
+    <section>
+        <ul class="product-bg">
+            <li class="bg-left"></li>
+            <li class="bg-right"></li>
+        </ul>
     </section>
 
-    <section class="mb-16">
+    <section class="product-content">
         <div class="container">
-            <h2 class="text-center font-medium text-2xl">Celluloid Combi</h2>
-            <h3 class="text-center text-2xl mb-6">賽璐珞鈦金屬混合鏡框</h3>
+            <h2>Celluloid Combi</h2>
+            <h3>賽璐珞鈦金屬混合鏡框</h3>
             <ul>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-1.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-2.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-3.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-4.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-5.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-6.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-1.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-2.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-3.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-4.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-5.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
-                <li class="mb-6">
+                <li>
                     <img src="./assets/images/product-6.png" alt="">
-                    <div class="flex justify-between text-2xl">
+                    <div class="product-text">
                         <p>BJ41600S</p>
-                        <span class="text-red-light">NTD3,490</span>
+                        <span>NTD3,490</span>
                     </div>
-                    <div class="flex gap-2">
-                        <div class="w-6 h-6 rounded bg-[#5F3E2D]"></div>
-                        <div class="w-6 h-6 rounded bg-[#B75929]"></div>
+                    <div class="color">
+                        <div class="color1"></div>
+                        <div class="color2"></div>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
-    <section class="mb-16">
-        <ul class="container flex justify-center items-center text-gray-dark ">
-            <li class="border border-r-0"><a class="block p-2 hover:bg-gray-light" href="#">上一頁</a></li>
-            <li class="border border-r-0"><a class="block py-2 px-3 hover:bg-black hover:text-white" href="#">1</a></li>
-            <li class="border border-r-0"><a class="block py-2 px-3 hover:bg-black hover:text-white" href="#">2</a></li>
-            <li class="border border-r-0"><a class="block py-2 px-3 hover:bg-black hover:text-white" href="#">3</a></li>
-            <li class="border border-r-0"><a class="block py-2 px-3 hover:bg-black hover:text-white" href="#">4</a></li>
-            <li class="border border-r-0"><a class="block py-2 px-3 hover:bg-black hover:text-white" href="#">5</a></li>
-            <li class="border"><a class="block p-2 hover:bg-gray-light" href="#">下一頁</a></li>
+    <section>
+        <ul class="bookmark container">
+            <li><a href="#">上一頁</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">下一頁</a></li>
         </ul>
     </section>
 </main>
 
-    <footer class="bg-red-light py-6 sm:pt-12 md:pb-8">
-      <div class="container mx-auto">
-        <div class="flex justify-between">
-          <div>
-            <ul class="text-white gap-12 mb-9 hidden md:flex">
-              <li><a class="hover:underline hover:underline-offset-2" href="">首頁</a></li>
-              <li><a class="hover:underline hover:underline-offset-2" href="">系列鏡框</a></li>
-              <li><a class="hover:underline hover:underline-offset-2" href="">門市據點</a></li>
-              <li><a class="hover:underline hover:underline-offset-2" href="">部落格</a></li>
-              <li><a class="hover:underline hover:underline-offset-2" href="">常見問題</a></li>
-            </ul>
-            <ul>
-              <li class="mb-2">
-                <a class="flex gap-4 text-white" href="tel:0800-000-000">
-                  <span class="material-symbols-outlined text-2xl sm:text-5xl">call</span>
-                  <p class="sm:text-4xl hover:underline hover:underline-offset-2">0800-000-000</p>
-                </a>
-              </li>
-              <li>
-                <a class="flex gap-4 text-white" href="mailto:glasses@business.com">
-                  <span class="material-symbols-outlined text-2xl sm:text-5xl">mail</span>
-                  <p class="sm:text-4xl hover:underline hover:underline-offset-2">glasses@business.com</p>
-                </a>
-              </li>
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-left">
+              <ul class="footer-link">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="product.html">系列鏡框</a></li>
+                <li><a href="location.html">門市據點</a></li>
+                <li><a href="blog.html">部落格</a></li>
+                <li><a href="question.html">常見問題</a></li>
+              </ul>
+              <ul class="footer-contract">
+                <li>
+                  <a href="tel:0800-000-000">
+                    <span class="material-symbols-outlined">
+                      call
+                    </span>
+                    <p>0800-000-000</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:glasses@business.com">
+                    <span class="material-symbols-outlined">
+                      mail
+                    </span>
+                    <p>glasses@business.com</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+  
+            <ul class="footer-social">
+              <li><a href="#"><img src="./assets/images/ic-social-fb.png" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/ic-social-ig.png" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/ic-social-line.png" alt=""></a></li>
             </ul>
           </div>
-
-          <ul class="flex gap-2 sm:gap-4 md:gap-8">
-            <li><a href=""><img class="w-6 h-6 sm:w-10 sm:h-10 md:w-12 md:h-12" src="./assets/images/ic-social-fb.png" alt=""></a></li>
-            <li><a href=""><img class="w-6 h-6 sm:w-10 sm:h-10 md:w-12 md:h-12" src="./assets/images/ic-social-ig.png" alt=""></a></li>
-            <li><a href=""><img class="w-6 h-6 sm:w-10 sm:h-10 md:w-12 md:h-12" src="./assets/images/ic-social-line.png" alt=""></a></li>
-          </ul>
+  
+          <div class="copyright">
+            <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            <ul class="copyright-link">
+              <li><a href="#">隱私權政策</a></li>
+              <li><a href="#">服務條款</a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="text-white  md:flex justify-between border-t border-solid pt-6 mt-6 sm:pt-8 sm:mt-8">
-          <li class="mb-2">Copyright © 2020 Glasses.All rights reserved.</li>
-          <li class="flex flex-col gap-2 md:flex-row md:gap-12">
-            <a class="hover:underline hover:underline-offset-2" href="#">隱私權政策</a>
-            <a class="hover:underline hover:underline-offset-2" href="#">服務條款</a>
-          </li>
-        </ul>
-      </div>
-
-    </footer>
+  
+      </footer>
         <script src="./assets/js/vendors.js"></script>
         <script src="./assets/js/all.js"></script>
 </body>
