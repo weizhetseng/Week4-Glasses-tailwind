@@ -1,5 +1,5 @@
-console.log('Hello!');
+$('#mobile').on('click', function(e){
+  e.preventDefault();
 
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
-});
+  $('#navbar').toggleClass('max-h-0');
+})
