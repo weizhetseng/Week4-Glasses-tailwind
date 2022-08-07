@@ -14,20 +14,20 @@
 </head>
 
 <body>
-  <header class="bg-red-light">
+  <header class="relative bg-red-light">
     <div class="container">
       <div class="flex items-center justify-between">
         <h1><a href="index.html"><img class="w-20 h-[72px] object-contain" src="./assets/images/logo-white.png"
               alt=""></a></h1>
-        <div class="hidden sm:block">
-          <ul class="flex gap-16 text-white">
-            <li><a href="product.html">系列鏡框</a></li>
-            <li><a href="location.html">門市據點</a></li>
-            <li><a href="blog.html">部落格</a></li>
-            <li><a href="question.html">常見問題</a></li>
+        <div id="navbar" class="bg-red-light absolute top-full w-full right-0 max-h-0 overflow-hidden border-t border-white sm:block sm:relative sm:overflow-visible sm:top-auto sm:w-auto sm:max-h-fit sm:border-t-0 sm:right-auto">
+          <ul class="sm:flex sm:gap-16 text-white text-center">
+            <li class="py-2"><a class="hover:underline hover:underline-offset-2" href="product.html">系列鏡框</a></li>
+            <li class="py-2"><a class="hover:underline hover:underline-offset-2" href="location.html">門市據點</a></li>
+            <li class="py-2"><a class="hover:underline hover:underline-offset-2"href="blog.html">部落格</a></li>
+            <li class="py-2"><a class="hover:underline hover:underline-offset-2" href="question.html">常見問題</a></li>
           </ul>
         </div>
-        <a class="sm:hidden" href="#">
+        <a id="mobile" class="sm:hidden" href="#">
           <span class="material-symbols-outlined text-5xl text-white my-1">
             menu
           </span>
@@ -93,11 +93,11 @@
           <div class="footer-left">
             <div class="hidden sm:block">
               <ul class="text-white flex gap-12 mb-6">
-                <li><a href="index.html">首頁</a></li>
-                <li><a href="product.html">系列鏡框</a></li>
-                <li><a href="location.html">門市據點</a></li>
-                <li><a href="blog.html">部落格</a></li>
-                <li><a href="question.html">常見問題</a></li>
+                <li><a class="hover:underline hover:underline-offset-2" href="index.html">首頁</a></li>
+                <li><a class="hover:underline hover:underline-offset-2" href="product.html">系列鏡框</a></li>
+                <li><a class="hover:underline hover:underline-offset-2" href="location.html">門市據點</a></li>
+                <li><a class="hover:underline hover:underline-offset-2" href="blog.html">部落格</a></li>
+                <li><a class="hover:underline hover:underline-offset-2" href="question.html">常見問題</a></li>
               </ul>
             </div>
 
@@ -107,7 +107,7 @@
                   <span class="material-symbols-outlined text-2xl sm:text-7xl">
                     call
                   </span>
-                  <p class="sm:text-4xl">0800-000-000</p>
+                  <p class="sm:text-4xl hover:underline hover:underline-offset-2">0800-000-000</p>
                 </a>
               </li>
               <li>
@@ -115,7 +115,7 @@
                   <span class="material-symbols-outlined text-2xl sm:text-7xl">
                     mail
                   </span>
-                  <p class="sm:text-4xl">glasses@business.com</p>
+                  <p class="sm:text-4xl hover:underline hover:underline-offset-2">glasses@business.com</p>
                 </a>
               </li>
             </ul>
@@ -131,8 +131,8 @@
         <div class="text-white border-t pt-4 mt-6 sm:flex sm:justify-between sm:pt-8 sm:mt-8">
           <p class="mb-2">Copyright © 2020 Glasses.All rights reserved.</p>
           <ul class="sm:flex gap-12">
-            <li class="mb-2"><a href="#">隱私權政策</a></li>
-            <li><a href="#">服務條款</a></li>
+            <li class="mb-2"><a class="hover:underline hover:underline-offset-2" href="#">隱私權政策</a></li>
+            <li><a class="hover:underline hover:underline-offset-2" href="#">服務條款</a></li>
           </ul>
         </div>
       </div>

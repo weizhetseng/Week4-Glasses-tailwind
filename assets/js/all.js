@@ -1,7 +1,7 @@
 "use strict";
 
-console.log('Hello!');
-$(document).ready(function () {
-  console.log('HesSchool Hello!');
+$('#mobile').on('click', function (e) {
+  e.preventDefault();
+  $('#navbar').toggleClass('max-h-0');
 });
 //# sourceMappingURL=all.js.map
