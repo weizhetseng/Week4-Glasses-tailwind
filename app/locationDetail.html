@@ -8,13 +8,11 @@ current: index
 
 <main>
     <div class="container">
-        <section class="comment-title">
-            <h2>門市據點</h2>
-        </section>
-        <section class="location">
-            <div class="locationSelect">
+            <h2 class="text-2xl sm:text-7xl border-l-8 border-red-light pl-4 font-bold mt-10 mb-6 sm:mb-8 sm:mt-20 md:mt-24">門市據點</h2>
+        <section class="mb-16 sm:mb-20">
+            <div class="flex gap-2 sm:gap-4 items-center mb-6 sm:mb-10">
                 <p>選擇分店</p>
-                <select name="" id="">
+                <select class="w-5/6 sm:w-2/5 md:w-1/4" name="" id="">
                     <option value="">台北中山旗艦店</option>
                     <option value="">台北綠園店</option>
                     <option value="">台中清水旗艦店</option>
@@ -22,28 +20,25 @@ current: index
                     <option value="">高雄夢時代店</option>
                 </select>
             </div>
-        
-
-        
-            <div class="location-detail-content">
-                <div class="location-detail-item">
-                    <img src="./assets/images/store-1.png" alt="">
-                    <div class="">
-                        <h3>台北中山旗艦店</h3>
-                        <ul class="location-detail-text">
-                            <li>
+            <div class="md:flex md:gap-6">
+                <div class="mb-6 sm:flex sm:gap-6 md:flex-col md:gap-0 md:w-2/5">
+                    <img class="w-full sm:w-1/2 md:w-full" src="./assets/images/store-1.png" alt="">
+                    <div class="sm:w-1/2 md:w-full">
+                        <h3 class="text-2xl py-2 px-6 border border-[#00000020]">台北中山旗艦店</h3>
+                        <ul class="text-xl py-4 px-6 border border-[#00000020]">
+                            <li class="flex items-center mb-2 gap-2">
                                 <span class="material-symbols-outlined">
                                     call
                                 </span>
                                 <p>電話：(02)000-1234</p>
                             </li>
-                            <li>
+                            <li class="flex items-center mb-2 gap-2">
                                 <span class="material-symbols-outlined">
                                     schedule
                                 </span>
                                 <p>營業時間：10:00-21:00</p>
                             </li>
-                            <li>
+                            <li class="flex items-center gap-2">
                                 <span class="material-symbols-outlined">
                                     location_on
                                 </span>
@@ -51,9 +46,8 @@ current: index
                             </li>
                         </ul>
                     </div>
-
                 </div>
-                <img class="location-map" src="./assets/images/map.png" alt="">
+                <img class="w-full md:w-3/5" src="./assets/images/map.png" alt="">
             </div>
 
         </section>

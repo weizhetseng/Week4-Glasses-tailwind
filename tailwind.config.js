@@ -6,11 +6,9 @@ module.exports = {
       padding: '12px',
     },
     screens: {
-      'ss':'640px',
       'sm': '768px',
       'md': '992px',
       'lg': '1280px',
-
     },
     fontSize: {
       sm: ['14px', '1.5'],
