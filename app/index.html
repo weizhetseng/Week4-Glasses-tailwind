@@ -50,15 +50,15 @@ current: index
       <ul class="grid md:grid-cols-3 gap-6">
         <li>
           <img class="mb-2 sm:w-2/3 md:w-full mx-auto" src="./assets/images/home-section3-1.png" alt="">
-          <p class="text-7xl text-red-light text-center font-bold mb-6">OPTICAL</p>
+          <h4 class="text-7xl text-red-light text-center font-bold mb-6">OPTICAL</h4>
         </li>
         <li>
           <img class="mb-2 sm:w-2/3 md:w-full mx-auto" src="./assets/images/home-section3-2.png" alt="">
-          <p class="text-7xl text-red-light text-center font-bold mb-6">SUNGLASSES</p>
+          <h4 class="text-7xl text-red-light text-center font-bold mb-6">SUNGLASSES</h4>
         </li>
         <li>
           <img class="mb-2 sm:w-2/3 md:w-full mx-auto" src="./assets/images/home-section3-3.png" alt="">
-          <p class="text-7xl text-red-light text-center font-bold mb-6">FUNCTIONAL</p>
+          <h4 class="text-7xl text-red-light text-center font-bold mb-6">FUNCTIONAL</h4>
         </li>
       </ul>
     </div>
@@ -69,11 +69,11 @@ current: index
       <ul class="md:flex md:justify-center">
         <li class="mb-6 md:w-full">
           <div class="h-60 bg-[url('../images/home-section4-1-sm.png')] sm:bg-[url('../images/home-section4-1.png')] bg-no-repeat bg-center bg-cover"></div>
-          <p class="text-center text-red-light text-7xl bg-white font-bold py-2">DOUBLE A+</p>
+          <h4 class="text-center text-red-light text-7xl bg-white font-bold py-2">DOUBLE A+</h4>
         </li>
         <li class="md:w-full">
           <div class="h-60 bg-[url('../images/home-section4-2-sm.png')] sm:bg-[url('../images/home-section4-2.png')] bg-no-repeat bg-center bg-cover"></div>
-          <p class="text-center text-red-light text-7xl bg-white font-bold py-2">YOUTH</p>
+          <h4 class="text-center text-red-light text-7xl bg-white font-bold py-2">YOUTH</h4>
         </li>
       </ul>
     </div>
@@ -125,18 +125,18 @@ current: index
       <form class="flex flex-col sm:w-2/3 mx-auto" action="#">
         <p class="mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
         <label class="mb-2" for="name">姓名</label>
-        <input class="mb-4" type="text" placeholder="陳小明" required>
-        <label class="mb-2" for="name">聯絡電話</label>
-        <input class="mb-4" type="tel" placeholder="0912-345-678" required>
-        <label class="mb-2" for="name">電子郵件</label>
-        <input class="mb-4" type="email" placeholder="example@email.com" required>
-        <label class="mb-2" for="name">意見反應</label>
-        <textarea class="mb-4 resize-none h-32" name="comment" placeholder="請輸入您的意見"></textarea>
+        <input id="name" class="mb-4 bg-transparent" type="text" placeholder="陳小明" required>
+        <label class="mb-2" for="tel">聯絡電話</label>
+        <input id="tel" class="mb-4 bg-transparent" type="tel" placeholder="0912-345-678" required>
+        <label class="mb-2" for="mail">電子郵件</label>
+        <input id="mail" class="mb-4 bg-transparent" type="email" placeholder="example@email.com" required>
+        <label class="mb-2" for="comment">意見反應</label>
+        <textarea id="comment" class="mb-4 resize-none h-32 bg-transparent" name="comment" placeholder="請輸入您的意見"></textarea>
         <div class="flex gap-1 mb-6">
           <input type="checkbox" required>
           <label for="">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
         </div>
-        <button class="text-white bg-red-light py-4 w-2/3 mx-auto hover:underline hover:underline-offset-2" type="submit">確認送出</button>
+        <button class="text-white bg-red-light py-4 w-2/3 mx-auto hover:bg-red-dark  cursor-pointer" type="submit">確認送出</button>
       </form>
     </div>
 
